@@ -92,7 +92,6 @@ six==1.11.0
 SQLAlchemy==1.3.18
 sqlparse==0.3.0
 termcolor==1.1.0
-ticket-book-pkg-jejurkarganesh1990 @ file:///F:/work/P10/gbj_ticket_app/dist/ticket_book_pkg_jejurkarganesh1990-5.5.1-py3-none-any.whl
 traitlets==4.3.2
 uritemplate==3.0.1
 urllib3==1.24.3
