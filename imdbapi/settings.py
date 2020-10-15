@@ -13,7 +13,7 @@ SECRET_KEY = 'm3zx%=(0vgp*gg7rcb5of-yx=p(i0=o9k*7vui=@yc9x2!n3sz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ganeshj.herokuapp.com']
+ALLOWED_HOSTS = ['ganeshje.herokuapp.com']
 
 
 # Application definition
@@ -77,10 +77,10 @@ REST_FRAMEWORK = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd6j5kkiv3apo2d',
-        'USER': 'gkbqgebiqtyfqq',
-        'PASSWORD': 'fc6f83299367b436ae1ecca1924248f1411bc323c60dd95f77e4e48c5f7a6427',
-        'HOST': 'ec2-52-21-0-111.compute-1.amazonaws.com',
+        'NAME': 'dbp2qao6tholbo',
+        'USER': 'yzqidhckcgvhyu',
+        'PASSWORD': 'b3f79b3a81ddcfa0a7fa65112de8c43ad1d3562187ab8f85cf9fe5a41e7bcc66',
+        'HOST': 'ec2-75-101-232-85.compute-1.amazonaws.com',
         'PORT': 5432
     },
 
