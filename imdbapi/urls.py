@@ -9,5 +9,5 @@ schema_view = get_swagger_view(title='IMDB MOVIE API')
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'swagger/', schema_view),
-    path('imdb/', include('movies.urls'))
+    path('/', include('movies.urls'))
 ]
