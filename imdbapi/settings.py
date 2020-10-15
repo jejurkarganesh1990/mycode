@@ -76,6 +76,15 @@ REST_FRAMEWORK = {
 
 DATABASES = {
     'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd6j5kkiv3apo2d',
+        'USER': 'gkbqgebiqtyfqq',
+        'PASSWORD': 'fc6f83299367b436ae1ecca1924248f1411bc323c60dd95f77e4e48c5f7a6427',
+        'HOST': 'ec2-52-21-0-111.compute-1.amazonaws.com',
+        'PORT': 5432
+    },
+
+    'sqlite': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     },
